@@ -1,0 +1,118 @@
+body{
+    margin-left: 30px;
+font-family:'Poppins', sans-serif;
+}
+
+nav ,.nav-items{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.nav-item{
+    margin-right: 80px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.active-item{
+    color: rgb(231, 90, 39);
+    font-weight: 800px;
+}
+.intro-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.intro-section .left-section{
+    margin-bottom:500px ;
+}
+.left-section h3{
+    display: flex;
+    
+    align-items: center;
+    font-weight: 300;
+    font-size: 35px;
+    gap: 15px;
+}
+.left-section h1{
+    font-family: 'Fredoka One',sans-serif;
+    font-size: 80px;
+    margin-top: -20px;
+}
+.sub-headlines{
+  
+    margin-left: 100px;
+    margin-top: -20px;
+}
+.sub-headline img{
+    height: 15px;
+  color: #fff;
+  background-color: #f2581f;
+  border: 1px solid #f15922;
+  padding: 5px;
+  border-radius: 50%;
+  align-items: center;
+  margin: 1%;
+  cursor: pointer;
+}
+.sub-headline {
+font-size: 20px;
+display: flex;
+align-items: center;
+margin-bottom: -25px;
+}
+.intro-section .text{
+    margin-top: 50px;
+    color: rgb(141, 132, 132);
+    width: 800px;
+}
+.action-btn{
+    width: 150px;
+    padding: 15px;
+    background-color: #f2581f;
+    border: 1px solid #f15922;
+    color: #fff;
+    margin-right: 30px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.right-section{
+    display: flex;
+    
+    flex-direction: column;
+    align-items: center;
+}
+.headphone-div img{
+ position: absolute;
+    top: 90px;
+    width: 450px;
+    right: 150px;
+}
+.headphone-div .discount{
+    z-index: 2;
+    width: 10%;
+    top: 350px;
+    right: 500px;
+    filter: drop-shadow(10px 10px 10px rgb(58, 55, 55));
+}
+.discount-content{
+position: relative;
+z-index: 3;
+right: 350px;
+bottom: 120px;
+}
+.discount-content h4{
+    font-size: 20px;
+    color: #ffffff;
+    line-height: 10px;
+}
+.discount-content h1{
+    font-size: 45px;
+    font-weight: 1500;
+    color: #ffffff;
+    line-height: 10px;
+}
+.right-section .action-btn{
+    margin-bottom: 100px;
+    margin-right: 280px;
+}
